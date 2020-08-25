@@ -52,7 +52,7 @@ $(document).ready(function(){
     $("#pro").click(function(e) {
         scrollFunction(e,1300);
     });
-    $("#gotoabt").click(function(e){
+    $("#to").click(function(e){
         scrollFunction(e,700);
     })
     

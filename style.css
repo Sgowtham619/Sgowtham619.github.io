@@ -1,0 +1,429 @@
+*{
+    		margin: 0;
+    		padding: 0;
+    	}
+    	
+    	#start{
+    			height:80px;
+    			position: fixed;
+    			background-color :transparent;
+    			width: 100%;
+    			display: inline-block;
+    			-webkit-transition: height .5s line-height .5s ;
+    		    z-index:1000;
+    			
+			}
+		#first{	
+				position: absolute;
+				 color: lightyellow;
+	 			font-family: "Brush Script MT";
+	 			font-size: 50px;
+  				left: 10px;
+  				top: 0px;
+    			float: left;
+    			padding: 5px;
+    			-webkit-transition: all .5s;
+    			transition: all .5s;
+    			font-weight: 500;
+			}
+ 		#second{
+    			float:right;
+				}
+ 		li{
+    			padding: 10px;
+    			font-size: 25px;
+    			float: right;
+    			list-style-type: none;
+    			
+			}
+		#start a{
+    			text-decoration: none;
+    			color:rgb(39, 39, 39);
+    			font-weight: 600;
+    			font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
+			}
+		#start a:hover{
+    				color:rgb(209, 209, 209);
+    				-webkit-transition: all .2s;
+    				transition: all .2s;
+					}
+
+       .scrolled-start {
+    height: 50px !important;
+    background-color :rgb(241, 241, 241) !important;
+    box-shadow: 0px 1px rgb(175, 175, 175) !important;
+    opacity: 0.9 !important;
+}
+.scrolled-start #first{
+    color:rgb(59, 77, 168) !important;
+    font-weight: 500 !important;
+    font-size: 40px !important;
+}
+.scrolled-start li{
+    font-size: 20px !important;
+}
+.scrolled-start a{
+    color:rgb(181, 40, 103) !important;
+    font-weight: 600 !important;
+}
+.scrolled-start a:hover{
+    color:rgb(49, 46, 46) !important;
+}   
+#intro{
+   
+   			position: relative; 
+    		margin: 0;
+    		padding: 0;
+    		height: 100vh;
+    		display: flex;
+    		flex-direction: column;
+    		justify-content: center;
+    		text-align:center;
+    		align-items: center;
+			
+        	background-image: url('lap.img');
+    		background-position: center;
+    		background-size: cover;
+    		background-attachment: fixed;
+    		opacity: 1;
+         }
+#intro h1{
+    		font-size:4.2vw;
+    		font-family: 'Anton', sans-serif;
+    		color:rgb(51, 51, 51);
+   			 letter-spacing: 0.50vw;
+         }
+#intro span{
+   			 font-size:4.8vw;
+    		font-family: 'Francois One', sans-serif;
+    		color:rgb(34, 34, 34);
+    		letter-spacing: 0.9vw;
+			}
+#intro  h2{
+    		padding: 2.5vw;
+    		font-size:5.1vw;
+    		font-family: 'Francois One', sans-serif;
+    		color:rgb(3, 3, 3);
+    		letter-spacing: 0.75vw;
+    		font-weight: 500;
+			}
+
+#to{
+  text-decoration: none;
+  font-size:68px;
+  cursor:pointer;
+  margin-top:100px
+  ;color:rgb(94, 94, 94);
+}
+
+#about{
+    	text-align:center;
+    	color: black;
+		}
+#about h1{
+    		color: rgb(24, 24, 24);
+    		font-family: 'Fjalla One',sans-serif;
+    		letter-spacing: 4px;
+    		font-weight: 600;
+        padding-top:20vh;
+        vertical-align:middle;
+        font-size:40px;
+
+		}
+    #about col-sm-5{
+      height: 100%;
+       background:white;
+
+    }
+ 
+
+#about p{
+   			 color: rgb(60, 60, 60);
+    		font-size: 17px;
+    		font-family: 
+   			 font-weight: 200;
+         padding: 10px;
+		}
+    #not{
+    background:rgb(238, 238, 238);
+    padding:3vw 5vw;
+    }
+i{
+    position: fixed;
+    z-index: 20;
+    cursor: pointer;
+}
+  
+
+#interests{
+    		background-color: rgb(234, 227, 234);
+    		text-align:center;
+    		padding: 3vw 5vw;
+			}
+    #interests h2{
+      color:rgb(228, 68, 36);
+    }
+
+#bad{
+    background: url('bad.png');
+    background-size: cover;
+    -webkit-transition:0.5s; 
+    transition: 0.5s;
+    height:40vh;
+}
+#cricket{
+    background: url('cricket.png');
+    background-size: cover;
+    -webkit-transition:0.5s; 
+    transition: 0.5s;
+    height:40vh;
+}
+#chess{
+    background: url('chess.png');
+    background-size: cover;
+    -webkit-transition:0.5s; 
+    transition: 0.5s;
+    height:40vh;
+}
+#game{
+    background: url('gaming.png');
+    background-size: cover;
+    -webkit-transition:opacity 0.5s; 
+    transition: opacity 0.5s;
+    height:40vh;
+}
+#web{
+    background: url('web.png');
+    background-size: cover;
+    -webkit-transition:0.5s; 
+    transition: 0.5s;
+    height:40vh;
+}
+#ml{
+    background: url('ml.png');
+    background-size: cover;
+    -webkit-transition:0.5s; 
+    transition: 0.5s;
+    height:40vh;
+}
+		
+
+#skills{
+    	padding: 3vw 5vw;
+    	text-align: center; 
+      background:rgb(223, 220, 227);
+		}
+    #skills h2{
+      color:rgb(228, 68, 36);
+    }
+
+#skillClass{
+    		float: left;
+			}
+#skills p{
+   			 font-size: 22px;
+    		font-family: 'Roboto Condensed',sans-serif;
+    		padding-top: 10px;
+    		color: black;
+   			 font-weight: 600;
+		}
+	
+     #projects{
+              background-color: rgb(234, 227, 234);
+             text-align:center;
+             padding: 3vw 5vw;
+                       }
+
+      #img{
+        width: 100%;
+      }
+      #projects h2{
+        text-align: center;
+         font-size: 40px;
+          color:red;
+      }
+
+    #oceana{
+           background-size: cover;
+          -webkit-transition:0.5s; 
+          transition: 0.5s;
+          width:100%;
+          }
+#kaggle{
+        background-size: cover;
+        -webkit-transition:0.5s; 
+        transition: 0.5s;
+        width:100%;
+}
+#chem{
+        background-size: cover;
+      -webkit-transition:0.5s; 
+      transition: 0.5s;
+      width: 100%
+    }
+   
+				
+#msg{
+   		 background: rgb(43, 43, 43);
+    	height: 70vh;
+    	opacity: 1;
+    	text-align: center;
+   	 	color: rgb(228, 68, 36);
+	}
+input[type=text], textarea {
+    						width: 70%;
+    						padding: 8px;
+    				
+   							 
+   							 background: rgb(196, 196, 196)
+							}
+
+input[type=submit] {
+   					 background-color: #ff6600;
+    				color: white;
+    				padding: 12px 20px;
+   					 border: none;
+   					 border-radius: 4px;
+   					 cursor: pointer;
+    				transition: ease 0.5s;
+					}
+input[type=submit]:hover {
+    						background-color: rgb(19, 17, 77);
+						}
+#msg h1{
+   			 margin-top: 16%;
+    		font-family: 'Fjalla One', sans-serif;
+		}
+#msg h3{
+    		margin-top: 30px;
+    		color: rgb(230, 230, 230);
+    		font-family: 'Josefin sans', sans-serif;
+		}
+	#mypic{
+    	height: 70vh;
+    	text-align: center;
+   		 background-color: #E44424;
+    	font-family: 'Fjalla One', sans-serif;
+    	color: #2B2B2B;
+    	letter-spacing: 1px;
+		}
+#img{
+   height:250px;
+    width:250px;
+    	margin-left: auto;
+		margin-right: auto;
+    	margin-top: 12%;
+    	
+	}	
+  #mypic h2{
+    margin-top:35px;
+    padding:1px
+
+  }
+
+#address{
+    	background: #2B2B2B;
+    	height: 70vh;
+    	text-align: center;
+    	color: whitesmoke;
+		}
+ #address h1{
+    margin-top:15%;
+    color: #E44424;
+    font-family: 'Fjalla One', sans-serif;
+	}
+ #address h3{
+    padding: 5spx;
+    font-family: 'Josefin Sans', sans-serif;
+	}	
+  #address p{
+    color:#C63D0F
+  }
+
+div.fixed {
+ 			position: fixed;
+  			bottom: 5px;
+  			left:2px;
+  			width: 300px;
+		}
+.fa {
+		padding: 4px;
+ 		 font-size: 20px;
+  		width: 30px;
+  		text-align: center;
+  		text-decoration: none;
+  		margin: 1px 1px;
+  		border-radius: 50%
+}
+
+.fa:hover {
+    opacity: 0.8;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-instagram {
+  background:#ff6600;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+
+@media(max-width:1440px){
+		input[type=submit] {
+		background-color: #ff6600;
+	}
+		}
+
+
+@media(max-width:576px){
+	input[type=submit] {
+		background-color:#ff6600;
+	}
+
+  
+}
+@media(max-width:950px){
+   #second li{
+      display:none;
+  }
+}
+
+@media(max-width:768px){
+	input[type=submit] {
+		background-color: #ff6600;
+	}
+
+}
+
+.image-tag{
+		width:70%;
+		height:100%;
+ }
+.scroll{
+	z-index:100;
+}
+
+
+.box:hover{ 
+box-shadow: 0px 0px 38px -16px rgba(0,0,0,0.75);
+}
+
+.footer {
+   position:relative;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
+}
+
+
+
